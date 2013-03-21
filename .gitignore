@@ -1,3 +1,5 @@
+*.beam
+*.html
 ebin/*.beam
 ebin/*.app
 t/*.beam
@@ -9,3 +11,10 @@ priv/*.config
 .DS_Store
 *.orig
 *.rej
+readme.edoc
+README.html
+test/*.beam
+test/*.html
+test/ct_run*
+test/variables-ct*
+test/ct_default.css
